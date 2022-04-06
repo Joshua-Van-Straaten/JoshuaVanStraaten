@@ -2,7 +2,7 @@
 
 #import libraries
 import numpy as np                                            #Numpy library for math operations
-import argparse                                               
+import argparse                                               #library to enable parsing of args to func
 
 parser = argparse.ArgumentParser(description='Calculate sum of factorial digits')
 parser.add_argument('number', type=int, help='Number to find factorial of')
